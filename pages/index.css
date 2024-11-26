@@ -8,11 +8,13 @@
 }
 
 .nav {
+  border: solid 4px violet;
   display: flex;
   justify-content: space-between;
 }
 
 .nav__logo {
+  border: solid 4px orange;
   height: 39px;
   width: 105px;
   margin-top: 30px;
@@ -20,11 +22,13 @@
 }
 
 .nav__links {
+  border: solid 4px blue;
   display: flex;
   column-gap: 20px;
-  padding: 0;
+  margin-top: 30px;
+  margin-right: 80px;
   list-style-type: none;
-  margin-top: 8px;
+  padding: 0;
 }
 
 .nav__link {
