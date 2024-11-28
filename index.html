@@ -52,13 +52,13 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#">Recetas</a>
+              <a class="nav__link" href="#recetas">Recetas</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Reservar una mesa</a>
+              <a class="nav__link" href="#reservas">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -93,7 +93,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recetas">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
@@ -101,48 +101,44 @@
           </p>
           <div class="recipes__videos">
             <div class="recipes__video-item">
-              <div>
-                <iframe
-                  class="iframe"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/L226s8m1xgs?si=x6fikE74Wq41PCjW"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                >
-                </iframe>
-                <div class="recipes__video-caption">
-                  <p>Receta Pad Thai Vegano</p>
-                  <p>~10 min</p>
-                </div>
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/L226s8m1xgs?si=x6fikE74Wq41PCjW"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <span>Receta Pad Thai Vegano</span>
+                <span>~10 min</span>
               </div>
-              <div>
-                <iframe
-                  class="iframe"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/yZmJz3CSztI?si=6zl7cGzuhaaAGQ7M"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                >
-                </iframe>
-                <div class="recipes__video-caption">
-                  <p>Receta Ensaladas Veganas</p>
-                  <p>~10 min</p>
-                </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/yZmJz3CSztI?si=6zl7cGzuhaaAGQ7M"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <span>Receta Ensaladas Veganas</span>
+                <span>~10 min</span>
               </div>
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservas"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contactos"></footer>
     </div>
   </body>
 </html>
