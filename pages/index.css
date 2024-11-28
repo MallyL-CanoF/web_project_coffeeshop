@@ -135,3 +135,15 @@
 
 .recipes__videos {
 }
+
+.recipes__video-item {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.iframe {
+}
+
+.recipes__video-caption {
+}
