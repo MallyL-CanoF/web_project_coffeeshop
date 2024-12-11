@@ -137,11 +137,9 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <section class="form">
-            <div class="form__container">
-              <form class="form__admin">
+          <h2 class="reservation__title">Reserva una mesa</h2>
+              <form class="form reservation__form">
                 <div class="form__main-container">
-                  <h2 class="reservation__title">Reserva una mesa</h2>
                   <fieldset
                     class="form__input-container form__input-container_ctrl_texts"
                   >
@@ -154,6 +152,19 @@
                       placeholder="Nombre"
                       required
                     />
+                    <label for="Número de comensales" class="form__label"
+                      >Número de comensales *</label
+                    >
+                    <input
+                      type="text"
+                      name="Número de comensales"
+                      class="form__item form__item_el_número de comensales"
+                      id="Número de comensales"
+                      placeholder="1-8"
+                      required
+                    />
+                    <label for="pub-date" class="form__label">Fecha de publicación *</label>
+  <input type="date" name="pub-date" class="form__item form__item_el_pubdate" id="pub-date">
                   </fieldset>
                 </div>
               </form>
