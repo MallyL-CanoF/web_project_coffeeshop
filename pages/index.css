@@ -208,12 +208,19 @@
 }
 
 .reservation__form {
-  border: solid 2 px blueviolet;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__item {
