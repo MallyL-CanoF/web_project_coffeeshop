@@ -7,9 +7,13 @@
 
 .footer__content {
   border: solid 4px orange;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
+  height: 39px;
+  width: 105px;
 }
 
 .footer__social {
