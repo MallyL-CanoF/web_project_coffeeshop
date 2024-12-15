@@ -6,6 +6,7 @@
 }
 
 .footer__content {
+  border: solid 4px orange;
 }
 
 .footer__logo {
@@ -20,6 +21,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  color: white;
 }
 
 .footer__list {
@@ -31,6 +33,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: white;
 }
 
 .footer__social-link {
@@ -45,4 +48,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: white;
+  border: solid 4px yellow;
 }
